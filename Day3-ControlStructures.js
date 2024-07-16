@@ -32,9 +32,10 @@ Day 3: Control Structures
 */
 
 // Activity 1
-
+console.log("Activity 1");
 // Task 1
-
+console.log("\n");
+console.log("Task 1");
 let number = 12;
 if(number > 0){
     console.log(`${number} is Positive Number`);
@@ -47,7 +48,8 @@ if(number > 0){
 }
 
 // Task 2
-
+console.log("\n");
+console.log("Task 2");
 let age = 15;
 if(age >= 18){
     console.log(`You are eligible to vote`);
@@ -58,8 +60,10 @@ if(age >= 18){
 }
 
 // Activity 2
-
+console.log("Activity 2");
 // Task 3
+console.log("\n");
+console.log("Task 3");
 
 let a = 101;
 let b = 105;
@@ -76,8 +80,10 @@ if(a > b){
 }
 
 // Activity 3 
-
+console.log("Activity 3");
 // Task 4
+console.log("\n");
+console.log("Task 4");
 
 day = 1;
 
@@ -110,7 +116,8 @@ switch(day){
 }
 
 // Task 5
-
+console.log("\n");
+console.log("Task 5");
 let score = 50;
 let grade;
 
@@ -138,15 +145,19 @@ console.log(grade);
 
 
 // Activity 4
-
+console.log("Activity 4");
 // Task 6
+console.log("\n");
+console.log("Task 6");
 let num = 41;
 let res = (num % 2 == 0) ? "Number is Even" : "Number is Odd";
 console.log(res);
 
 // Activity 5
-
+console.log("Activity 5");
 //Task 7
+console.log("\n");
+console.log("Task 7");
 
 
 let year = 1900;
@@ -165,3 +176,40 @@ if(year % 4 == 0){
     console.log("Not a leap year");
 }
 
+/*
+OUTPUT
+
+Activity 1
+
+
+Task 1
+12 is Positive Number
+
+
+Task 2
+You are not eligible ro vote
+Activity 2
+
+
+Task 3
+Among 101, 105, 42 the largest number is 105
+Activity 3
+
+
+Task 4
+Monday
+
+
+Task 5
+D
+Activity 4
+
+
+Task 6
+Number is Odd
+Activity 5
+
+
+Task 7
+Not a Leap Year
+*/
