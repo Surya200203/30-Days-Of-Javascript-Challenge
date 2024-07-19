@@ -128,6 +128,24 @@ console.log("\nTask 11\n");
 console.log("All elments are :- ");
 numberArray.forEach((value)=>console.log(value))
 
+// Activity 5
+console.log("\nActivity 5\n");
+
+// Task 12
+console.log("\nTask 12\n");
+const matrix = [[2,3,4],[3,4,5],[0,9,8]];
+console.log(matrix);
+
+// Task 13
+console.log("\nTask 13\n");
+console.log(matrix[2][2]);
+
+
+
+
+
+
+
 /*
 OUTPUT
 
@@ -200,4 +218,14 @@ All elments are :-
 4
 5
 
+Activity 5
+
+
+Task 12
+
+[ [ 2, 3, 4 ], [ 3, 4, 5 ], [ 0, 9, 8 ] ]
+
+Task 13
+
+8
 */
